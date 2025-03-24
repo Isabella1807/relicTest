@@ -79,8 +79,8 @@ jobs:
             echo "❌ Performance test failed" >> performance-report.md
           fi
 
-      - name: Upload performance report
-        uses: actions/upload-artifact@v3
-        with:
-          name: performance-report
-          path: performance-report.md
+      #- name: Upload performance report
+      #  uses: actions/upload-artifact@v3
+      #  with:
+      #    name: performance-report
+      #    path: performance-report.md
